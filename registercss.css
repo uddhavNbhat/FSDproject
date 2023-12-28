@@ -1,0 +1,9 @@
+.card{
+    margin-top: 200px;
+}
+.card:hover .card-body{
+    transform: scale(1.05);
+}
+body{
+    background-color: gainsboro;
+}

@@ -1,0 +1,12 @@
+.card{
+    margin-top: 100px;
+}
+body{
+    background-color: gainsboro;
+}
+.card-header{
+    background-color: darkturquoise;
+}
+.card:hover .card-body{
+    transform: scale(1.05);
+}
