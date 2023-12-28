@@ -6,7 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link href="bootstrap.min.css" rel="stylesheet">
-        <link href="webpage.css" rel="stylesheet">          
+        <link href="webpage.css" rel="stylesheet">      
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary fixed-top">
@@ -49,29 +50,36 @@
                     </ul>
                   </li>
                 </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
+                <form class="d-flex" role="search"> 
+                  <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit"><a href="#"><i class="fa fa-fw fa-search"></i></a></button>
                 </form>
+                <i class="fa fa-fw fa-user"></i>
                 <div class="login">
-                  <button class="log"><a id="loginid" href="#">Login</a></button>
+                  <button class="log"><a id="loginid" href="loginpage.html">Login</a></button>
                 </div>
               </div>
             </div>
-          </nav>    
+          </nav>
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-12">
                     <div id="carouselExampleRide" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                           <div class="carousel-item active">
-                            <img src="apple.jpg" class="d-block w-100" alt="apple">
+                            <a href="#"><img src="src/images/LG 77_ Class Z2 PUA Series 8K UHD OLED Smart TV with ThinQ AI _ Nebraska Furniture Mart.jpg" class="d-block w-100" alt="apple"></a>
                           </div>
                           <div class="carousel-item">
-                            <img src="samsug.avif" class="d-block w-100" alt="samsung">
+                            <a href="#"><img src="src/images/Lenovo IdeaPad Gaming 3 82K101B7IN ( 11th Gen Core i5-11320H _ Nvidia GeForce RTX 3050 _ 16GB ram _ 256GB SSD + 1TB HDD ) - Tech Stories India.jpg" class="d-block w-100" alt="samsung"></a>
                           </div>
                           <div class="carousel-item">
-                            <img src="hp.jpg" class="d-block w-100" alt="hp">
+                            <a href="#"><img src="src/images/Best Buy_ ASUS ROG Strix XG27VQ 27_ LED Curved FHD FreeSync Monitor Red_dark gray XG27VQ.jpg" class="d-block w-100" alt="hp"></a>
+                          </div>
+                          <div class="carousel-item">
+                            <a href="#"><img src="src/images/apple.jpg" class="d-block w-100" alt="apple"></a>
+                          </div>
+                          <div class="carousel-item">
+                            <a href="#"><img src="src/images/hp.jpg" class="d-block w-100" alt="apple"></a>
                           </div>
                         </div>
                     </div>   
@@ -99,7 +107,7 @@
                             <a class="nav-link" href="#">Laptop</a>
                             </li>
                             <li class="nav-item">
-                            <a class="nav-link" href="#">Home Appliances</a>
+                            <a class="nav-link" href="#">Camera</a>
                             </li>
                             <li class="nav-item">
                             <a class="nav-link" aria-disabled="false" href="#">TV</a>
@@ -111,17 +119,19 @@
             <div class="row">
                 <div class="col-12 col-lg-6">
                     <div class="card text-bg-dark">
-                        <img src="Galaxy-A54_2-2.png" class="card-img" alt="samsung-A54">
+                        <img src="src/images/Galaxy-A54_2-2.png" class="card-img" alt="samsung-A54">
                         <div class="card-body"> 
                           <h5 class="card-title">Samsung-A54</h5>
+                          <button class="but"><a href="#" class="shop">Shop</a></button>
                         </div>
                     </div>  
                 </div>
                 <div class="col-12 col-lg-6">
                     <div class="card text-bg-dark">
-                        <img src="asusvivo.jpg" class="card-img" alt="Asus-VivoBook">
+                        <a href="#"><img src="src/images/asusvivo.jpg" class="card-img" alt="Asus-VivoBook"></a>
                         <div class="card-body"> 
                           <h5 class="card-title">Asus-VivoBook 15</h5>
+                          <button class="but"><a href="#" class="shop">Shop</a></button>
                         </div>
                     </div>  
                 </div>
@@ -129,24 +139,27 @@
             <div class="row">
                 <div class="col-12 col-lg-6">
                     <div class="card text-bg-dark">
-                        <img src="Hp pavillion 15.jpg" class="card-img" alt="Hp Pavillion 15">
+                        <img src="src/images/Hp pavillion 15.jpg" class="card-img" alt="Hp Pavillion 15">
                         <div class="card-body"> 
                           <h5 class="card-title">HP Pavillion 15</h5>
+                          <button class="but"><a href="#" class="shop">Shop</a></button>
                         </div>
                     </div>  
                 </div>
                 <div class="col-12 col-lg-6">
                     <div class="card text-bg-dark">
-                        <img src="Mi 11i.png" class="card-img" alt="Xiaomi-11i">
+                        <img src="src/images/Mi 11i.png" class="card-img" alt="Xiaomi-11i">
                         <div class="card-body"> 
                           <h5 class="card-title">Xiaomi-11i</h5>
+                          <button class="but"><a href="#" class="shop">Shop</a></button>
                         </div>
                     </div>  
                 </div>
             </div>
             <div class="row">
-                <footer>
-                    <hr>
+                   <hr>
+                   <br>
+                   <br>
                     <div class="col-4 col-lg-4">
                         <h3 id="prod">Products & Services: </h3>
                         <br>
@@ -163,9 +176,17 @@
                         </div>
                     </div>
                     <div class="col-4 col-lg-4">
-                        
+                        <h3 id="account">Account</h3>
+                        <br>
+                        <div class="link">
+                          <a href="#">My Account</a>
+                          <br>
+                          <a href="#">My Products</a>
+                          <br>
+                          <a href="#">My Orders</a>
+                          <br>
+                          <a href="#">Wishlist</a>
                     </div>
-                </footer>
             </div>
         </div>
         
